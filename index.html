@@ -36,5 +36,236 @@
         </ul>
       </nav>
     </header>
+
+    <!-- #############################  Main ################################# -->
+    <main>
+      <!-- section bio -->
+      <section id="bio" aria-labelledby="bio-titre">
+        <h2 id="bio-titre">À propos de moi</h2>
+        <p>
+          Je suis développeur Full-Stack passionné par la création d'expériences
+          web modernes et performantes. Basé à Brazzaville, je travaille
+          principalement avec l'écosystème
+          <strong>React / Next.js</strong> côté frontend et
+          <strong>Laravel / Symfony</strong>
+          côté backend.
+        </p>
+      </section>
+
+      <!-- section competences -->
+      <section id="competences" aria-labelledby="competences-titre">
+        <h2 id="competences-titre">Compétences techniques</h2>
+
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML 5 , CSS3</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React Js</li>
+          <li>Next Js</li>
+          <li>Tailwind</li>
+        </ul>
+
+        <h3>Backend</h3>
+        <ul>
+          <li>PHP</li>
+          <li>Symfony</li>
+          <li>Laravel</li>
+          <li>Mysql</li>
+          <li>PostMan</li>
+        </ul>
+
+        <h3>DevOps</h3>
+        <ul>
+          <li>Docker</li>
+          <li>Traefik</li>
+          <li>AWS</li>
+          <li>Git</li>
+          <li>Github</li>
+          <li>Linux</li>
+        </ul>
+      </section>
+
+      <!-- section formation -->
+      <section id="formation" aria-labelledby="formation-titre">
+        <h2 id="formation-titre">Formation et Apprentissage</h2>
+        <dl>
+          <dt>Développement Web Full-Stack</dt>
+          <dd>Auto-formation : React , Next.Js , TypeScript , Docker</dd>
+
+          <dt>Parcours Codecademy</dt>
+          <dd>CSS , Grid , Flexbox , Git , Github</dd>
+
+          <dt>Algorithme</dt>
+          <dd>
+            Generation de labyrunthes , boucles impriqués , fonctions
+            factorielles etc...
+          </dd>
+
+          <dt>Architecture DevOps</dt>
+          <dd>
+            Mise en place de pipeline CI/CD Github Actions , gestion des secrets
+            SSH , déploiement multi-services
+          </dd>
+        </dl>
+      </section>
+
+      <!-- section reseau sociaux -->
+      <section id="reseaux" aria-labelledby="reseaux-titre">
+        <h2 id="reseaux-titre">Retrouvez-moi sur</h2>
+
+        <ul>
+          <li>
+            <a
+              href="https://github.com/dzeko003"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil GitHub de Berenis"
+            >
+              GitHub — github.com/berenis
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/berenis-massamba-32199b220/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil LinkedIn de Berenis"
+            >
+              LinkedIn — linkedin.com/in/berenis
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/berenis_dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil X / Twitter de Berenis"
+            >
+              X (Twitter) — @berenis_dev
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:berenismassamba@gmail.com"
+              aria-label="Envoyer un e-mail à Berenis"
+            >
+              E-mail — berenis@example.com
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Formulaire de contact -->
+      <section id="contact" aria-labelledby="contact-titre">
+        <h2 id="contact-titre">Contactez-moi</h2>
+
+        <p>
+          Une idée de projet, une question ou simplement envie d'échanger ?
+          Remplissez le formulaire ci-dessous et je vous répondrai dans les plus
+          brefs délais.
+        </p>
+
+        <form action="#" method="post" novalidate>
+          <div>
+            <label for="nom"
+              >Nom complet <abbr title="Champ obligatoire">*</abbr>
+            </label>
+            <br />
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              placeholder="marie LOUBAKI"
+              required
+              aria-required="true"
+              autocomplete="name"
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="email">
+              Adresse email <abbr title="Champ obligatoire">*</abbr>
+            </label>
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="marie@example.com"
+              required
+              aria-required="true"
+              autocomplete="email"
+            />
+          </div>
+
+          <br />
+          <div>
+            <label for="sujet">Sujet</label>
+            <br />
+            <input
+              type="text"
+              id="sujet"
+              name="sujet"
+              placeholder="Proposition de collaboration"
+              autocomplete="off"
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="type-demande">Type de demande</label>
+            <br />
+            <select id="type-demande" name="type-demande">
+              <option value="">-- Choisir une option --</option>
+              <option value="projet">Projet freelance</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="question">Question technique</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="message"
+              >Message <abbr title="Champ obligatoire">*</abbr></label
+            >
+            <br />
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="50"
+              placeholder="Décrivez votre projet ou votre demande..."
+              required
+              aria-required="true"
+            ></textarea>
+          </div>
+
+          <br />
+
+          <div>
+            <input
+              type="checkbox"
+              id="consentement"
+              name="consentement"
+              required
+              aria-required="true"
+            />
+            <label for="consentement">
+              J'accepte que mes données soient utilisées pour traiter ma
+              demande.
+            </label>
+          </div>
+
+          <br />
+          <div>
+            <button type="submit">Envoyer le message</button>
+            <button type="reset">Réinitialiser</button>
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
