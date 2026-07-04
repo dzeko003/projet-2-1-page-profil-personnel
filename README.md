@@ -110,8 +110,9 @@ cd projet-2-1-page-profil-personnel
 ## Auteur
 
 **Berenis MASSAMBA**
-Formation : Akieni Academy
-Projet : Phase 2 · Module 1 · Semaine 2
+
+- Formation : Akieni Academy
+- Projet : Phase 2 · Module 1 · Semaine 2
 
 ---
 
