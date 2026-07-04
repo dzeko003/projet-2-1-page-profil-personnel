@@ -118,13 +118,3 @@ Projet : Phase 2 · Module 1 · Semaine 2
 ## Remarque
 
 Ce projet ne contient pas de CSS. L’objectif est uniquement de maîtriser la structure HTML et la sémantique avant d’aborder le style et le design.
-
----
-
-Si tu veux, je peux aussi te faire :
-
-- une version **README GitHub ultra stylée (badges + emojis + design pro)**
-- ou une version **anglais/français bilingue**
-- ou même un **portfolio à partir de ce projet**
-
-Dis-moi
