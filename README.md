@@ -107,6 +107,16 @@ cd projet-2-1-page-profil-personnel
 
 ---
 
+## Aperçu
+
+Une version en ligne du projet est disponible via GitHub Pages :
+
+**Démo :**  
+https://dzeko003.github.io/projet-2-1-page-profil-personnel/
+Vous pouvez consulter directement la landing page dans votre navigateur sans avoir à cloner le dépôt.
+
+---
+
 ## Auteur
 
 **Berenis MASSAMBA**
